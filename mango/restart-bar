@@ -1,0 +1,4 @@
+#/bin/env bash
+bar=noctalia
+killall $bar
+$bar
