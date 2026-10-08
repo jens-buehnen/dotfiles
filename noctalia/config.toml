@@ -28,3 +28,6 @@ panel.shadow = false
 [theme]
 community_palette = "Catppuccin Mocha Pink"
 source = "community"
+
+[lockscreen]
+transition = []

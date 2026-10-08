@@ -63,4 +63,4 @@ menu:
         cmd: systemctl reboot --firmware-setup
       - key: "l"
         desc: Lock
-        cmd: swaylock --clock --indicator
+        cmd: loginctl lock-session
