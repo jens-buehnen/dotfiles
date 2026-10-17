@@ -1,5 +1,6 @@
 #/usr/bin/env bash
 
+foot -s
 wl-clip-persist --clipboard both &
 noctalia &
 xremap --watch ~/.config/xremap/config.yml &
