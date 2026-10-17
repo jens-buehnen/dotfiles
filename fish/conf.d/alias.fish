@@ -26,6 +26,7 @@ alias gpus='git push'
 alias grep='grep --color=auto'
 alias h="history | grep "
 alias home='cd ~'
+alias juqp='just && qpush'
 alias l='za'
 alias lb='/opt/ladybird/usr/bin/Ladybird'
 alias mountedinfo='df -hT'
