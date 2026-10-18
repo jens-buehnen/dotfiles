@@ -5,11 +5,11 @@ volume_change_sound = "/usr/share/sounds/freedesktop/stereo/audio-volume-change.
 
 [bar.default]
 capsule_radius = 0
-thickness = 30
 margin_ends = 0
 radius = 0
 shadow = false
 start = ["wallpaper", "workspaces"]
+thickness = 30
 
 [battery]
 warning_threshold = 15
@@ -18,16 +18,17 @@ warning_threshold = 15
 radius = 0
 shadow = false
 
+[lockscreen]
+transition = []
+
 [shell]
+animation.enabled = false
+avatar_path = "~/.face"
 corner_radius_scale = 0.0
 font_family = "JetBrainsMono NFM"
-polkit_agent = true
-animation.enabled = false
 panel.shadow = false
+polkit_agent = true
 
 [theme]
 community_palette = "Catppuccin Mocha Pink"
 source = "community"
-
-[lockscreen]
-transition = []
