@@ -20,8 +20,8 @@ menu:
     desc: Open Fuzzel
     cmd: fuzzel
   - key: "a"
-    desc: Open Alacritty
-    cmd: alacritty
+    desc: Open Terminal
+    cmd: $TERMINAL
   - key: "f"
     desc: Open Freetube
     cmd: /opt/FreeTube/freetube
