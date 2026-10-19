@@ -37,9 +37,6 @@ menu:
       - key: "l"
         desc: Open Prism Launcher 
         cmd: prismlauncher
-  - key: "e"
-    desc: Open Bemoji
-    cmd: bemoji
   - key: "b"
     desc: Open Browser
     cmd: "xdg-open http:"
